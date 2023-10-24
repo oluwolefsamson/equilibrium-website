@@ -1,0 +1,38 @@
+[
+    {
+      "name": " Green Haven FCT Abuja",
+      "price": "47,043",
+      "detail": "456 Garden Way, Garki, Abuja, This charming family home in the heart of Garki offers 4 bedrooms, a lush garden, and a serene atmosphere. Perfect for those seeking a peaceful urban retreat.",
+      "image": "./r1.jpg"
+    },
+    {
+      "name": "Luxury Villa in Maitama",
+      "price": "66,353",
+      "detail": "789 Presidential Drive, Maitama, Abuja. Live in opulence in this lavish villa in Maitama. With 6 spacious bedrooms, a swimming pool, and a grand foyer, it's a true symbol of luxury in Abuja.",
+      "image": "./r2.jpg"
+    },
+    {
+      "name": "Abuja Executive Apartment",
+      "price": "35,853",
+      "detail": "123 Business District Avenue, Wuse, Abuja. This stylish apartment in Wuse boasts 2 bedrooms, a modern kitchen, and easy access to the city's business district. Ideal for professionals and executives.",
+      "image": "./r3.jpeg"
+    },
+    {
+      "name": "Tranquil Duplex in Gwarinpa",
+      "price": "47,043",
+      "detail": "101 Peaceful Street, Gwarinpa, Abuja.  Enjoy the peaceful surroundings of Gwarinpa with this spacious 5-bedroom duplex. It features a beautiful garden and ample space for a growing family.",
+      "image": "./r4.jpg"
+    },
+    {
+      "name": "Abuja Heights Penthouse",
+      "price": "66,353",
+      "detail": " 567 Skyline Avenue. Experience luxury living at its finest in this breathtaking penthouse in Jabi. With 3 spacious bedrooms, panoramic city views, and top-of-the-line amenities, it's a true symbol of prestige.",
+      "image": "./r5.jpeg"
+    },
+    {
+      "name": " Serene Duplex in Life Camp",
+      "price": "35,853",
+      "detail": "Find peace and comfort in this elegant duplex in Life Camp. Featuring 4 bedrooms, a landscaped garden, and a modern kitchen, it's perfect for a growing family.",
+      "image": "./r6.jpg"
+    }
+  ]

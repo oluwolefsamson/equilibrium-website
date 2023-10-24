@@ -1,0 +1,58 @@
+.f-wrapper {
+    padding: 0 2.5rem;
+    margin-bottom: 2rem;
+    justify-content: space-between;
+}
+
+
+
+.f-left .f-val {
+    text-align: center;
+    padding: 1rem;
+}
+
+.f-center {
+    gap: 1rem;
+    text-align: center;
+}
+
+.f-center .f-con {
+    text-align: center;
+    padding: 1rem;
+   
+}
+
+
+
+.span1 {
+    margin-right: 10px;
+}
+
+.span2 {
+    margin-right: 10px;
+}
+
+.span3 {
+    margin-right: 10px;
+}
+
+.span4 {
+    margin-right: 10px;
+}
+
+.f-right .f-fol {
+    text-align: center;
+    padding: 1rem;
+    
+   
+}
+.f-right .follow{
+    
+    text-align: center;
+}
+
+@media (max-width: 640px) {
+    .f-wrapper {
+        margin-bottom: 2rem;
+    }
+}

@@ -1,0 +1,18 @@
+.c-container {
+    gap: 2rem;
+    
+    
+}
+
+.c-container img {
+    width: 7rem;
+    height: 10vh;
+    border: solid 3px transparent;
+    border-radius: 10px;
+    background-image: linear-gradient(white, white),  linear-gradient(315deg, 
+    #3a61b4, #fff 50%, #45fc82);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    
+}
