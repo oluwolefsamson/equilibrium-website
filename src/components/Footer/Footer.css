@@ -1,20 +1,23 @@
 .f-wrapper {
     padding: 5rem;  
     background-color: rgb(144, 218, 144); 
-    
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
 }
 
 .f-con {
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin-top: -1.5rem;
 }
 
 .good {
     gap: 1rem;
     display: flex;
     flex-direction: column;
-    margin-top: 1rem;
+    margin-top: -0.8rem;
+   
 
 }
 
@@ -29,7 +32,7 @@
     display: flex;
     flex-direction: column;
     padding: 1rem;
-    margin-top: 1.2rem;
+    
     
 }
 
@@ -54,16 +57,32 @@
 
 
 @media (max-width: 640px) {
+
+    .f-wrapper {
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+    }
    
     .write {
-        padding: 1rem;
-        margin-top: 1rem;
+        padding-top: 2.6rem;
         font-size: 11px;
         
     }
 
     .follow-h2 {
         font-size: 20px;
+    }
+
+    .f-con {
+        margin-top: -1rem;
+    }
+
+    .good {
+        margin-top: 1rem;
+    }
+
+    .write {
+        margin-top: -1rem;
     }
 
    
