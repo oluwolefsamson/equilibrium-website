@@ -12,49 +12,33 @@ const Footer = () => {
     <section className='f-wrapper'>
               {/* first */ }
     
-
-            {/* center */ }
-       <div className="f-center">
+       
         <h2 className='primaryText f-con'>Contact</h2>
+        <div className="foot">
 
         <div className="good">
-        <div className="span-loc">
-        <ImLocation2 className='secondaryText span1' size={20} />
-        <span className='secondaryText'>Suite 203 Anbeez Plaza Opp Former CAC 
-        Office Ndola Crescent Wuse Zone 5 Abuja.</span>
-        </div>
-       
-        <div className="span-phone">
+        <ImLocation2 className='secondaryText span1' size={20} style={{ marginBottom: '5px'}}/>
+        <HiOutlineMail className='secondaryText span3' size={20} />
         <AiTwotonePhone className='secondaryText span2' size={20} />
-            <span className='secondaryText '>+234 803 7552 910 +234 706 6299 202</span>
+        <FiInstagram className='secondaryText span4' size={20} />
         </div>
         
-        <div className="span-mail">
-        <HiOutlineMail className='secondaryText span3' size={20} />
-            <span className='secondaryText'>equilibriummetrohomes@gmail.com</span>
+          <div className="secondaryText write">
+        <span>Suite 203 Anbeez Plaza Wuse Opposite Former CAC <br /> Office Ndola Crescent Wuse Zone 5 Abuja.</span><br />
+        <span>equilibriummetrohomes@gmail.com</span><br />
+        <span>+234 805 4288 271, +234 706 6299 202</span><br />
+        <span>equilibriummetrohomes</span><br />
+          </div>
         </div>
 
-        <div className="span-ins">
-        <FiInstagram className='secondaryText span4' size={20} />
-            <span className='secondaryText'>equilibriummetrohomes</span>
-        </div> 
+        <h2 className='primaryText follow-h2'>Follow Us</h2>
+        <div className="follow secondaryText">
+          <a href="#"><span><BsFacebook size={30} /></span></a>
+          <a href="#"><span><FaXTwitter size={30} /></span></a>
+          <a href="https://www.instagram.com/equilibriummetrohomes"><span><FiInstagram size={30} /></span></a>
         </div>
-   
-       
-       
-       
-       </div>
 
-         {/* right */ }
-
-       <div className="f-right">
-       <h2 className='primaryText f-fol'>Follow Us</h2>
-       <div className="follow secondaryText">
-            <a href=""><FiInstagram size={25} /></a>
-            <a href=""><BsFacebook size={25} /></a>
-            <a href=""><FaXTwitter size={25}  /></a>
-       </div>
-       </div>
+       
     </section>
   )
 }

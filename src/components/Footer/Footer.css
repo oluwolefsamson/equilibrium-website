@@ -1,73 +1,72 @@
 .f-wrapper {
-    padding: 0 2.5rem;
-    margin-bottom: 2rem;
-    justify-content: space-between;
+    padding: 5rem;  
+    background-color: rgb(144, 218, 144); 
+    
 }
 
-
-
-.f-left .f-val {
+.f-con {
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    padding: 1rem;
 }
 
-.f-center {
+.good {
     gap: 1rem;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+
 }
 
-.f-center .f-con {
-    text-align: center;
+.foot {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.write {
+    display: flex;
+    flex-direction: column;
     padding: 1rem;
-   
-}
-
-
-
-.span1 {
-    margin-right: 10px;
-}
-
-.span2 {
-    margin-right: 10px;
-}
-
-.span3 {
-    margin-right: 10px;
-}
-
-.span4 {
-    margin-right: 10px;
-}
-
-.f-right .f-fol {
-    text-align: center;
-    padding: 1rem;
+    margin-top: 1.2rem;
     
-   
 }
-.f-right .follow{
-    
-    text-align: center;
+
+.follow-h2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
+
+.follow {
+    gap: 1rem;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+
+}
+
+
 
 @media (max-width: 640px) {
-    .f-wrapper {
-        margin-bottom: 2rem;
+   
+    .write {
+        padding: 1rem;
+        margin-top: 1rem;
+        font-size: 11px;
+        
     }
 
- .f-right .f-fol {
-        font-size: x-large;
+    .follow-h2 {
+        font-size: 20px;
     }
 
-    .f-con {    
-        font-size: x-large;
-    }
-
-    .follow {
-        gap: 1rem;
-        margin-bottom: 1rem;
-        size: 15px;
-    }
+   
+   
     
 }

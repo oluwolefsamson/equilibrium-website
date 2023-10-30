@@ -36,7 +36,7 @@ const Hero = () => {
             <div className=' flexCenter search-bar'>
             < BiMap color='green' style={{ fontSize: '1.5rem' }}/> 
             <input type='text' />
-            <button>Search</button>
+            <button><a href="">Search</a></button>
             </div>
 
             <div className="flexCenter stats">

@@ -69,7 +69,9 @@
 
 @media (max-width: 640px) {
 
-
+    .v-container {
+        margin-top: -2rem;
+    }
 
     .image-container1 {
         width: 20rem;
