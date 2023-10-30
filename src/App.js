@@ -7,7 +7,9 @@ import Residency from './components/Residencies/Residency';
 import Values from './components/Values/Values';
 import Contact from './components/Contact/Contact';
 import GetStarted from './components/GetStarted/GetStarted';
+import ManagementTeam from './components/ManagementTeam/ManagementTeam';
 import Footer from './components/Footer/Footer';
+
 
 
 const App = () => {
@@ -20,9 +22,11 @@ const App = () => {
         <Company />
         <Residency />
         <Values />
-       <Contact />
-       <GetStarted />
-      <Footer />
+        <Contact />
+        <GetStarted />
+        <ManagementTeam />
+        <Footer /> 
+        
         
       </div>
       

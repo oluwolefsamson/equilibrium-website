@@ -12,13 +12,18 @@
 }
 
 .h-menu {
-    gap: 2rem
+    gap: 2rem;
+    
 }
 
 .h-menu:hover {
     cursor: pointer;
+  
 }
-
+.h-menu>a:hover {
+    color: #17cf97;
+    transition: 0.3 ease-in-out;
+}
 .menu-icon {
     display: none;
 }
@@ -28,9 +33,9 @@
         display: block;
     }
     .h-menu {
-        z-index: 99;
+        z-index: 9;
         color: var(--blue);
-        position: absolute;
+        position: fixed;
         top: 3rem;
         right: 4rem;
         background: #fff;

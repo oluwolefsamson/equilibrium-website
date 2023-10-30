@@ -1,7 +1,7 @@
-.r-head {
-    margin-bottom: 1.5rem;
+.r-container {
+    overflow: hidden;
+    position: relative;
 }
-
 .r-card {
     gap: 0.6rem;
     padding: 0.5rem;
@@ -10,8 +10,20 @@
     max-width: max-content;
     margin: auto;
     transition: all 300ms ease-in;
+    
+}
+.r-container .swiper-slide {
+    max-height: 300px; /* Adjust the height value as needed */
+    margin-bottom: 2.5rem;
+}
 
-   
+.r-head {
+    margin-top: 4rem;
+    gap: 0.5rem;
+}
+.r-card {
+    
+    margin-bottom: 0;
 }
 
 .r-card>img{
@@ -24,6 +36,7 @@
 
 .card-detail {
   padding-right: 1rem;
+  padding-bottom: -5rem;
 }
 
 .r-card:hover {
@@ -39,15 +52,12 @@
 }
 .swiper-horizontal {
     overflow: visible;
+   
 }
 
 .r-buttons {
-    margin-top: 10px;
-    gap: 0.5rem;
-    align-items: flex-end;
-    margin-bottom: 2rem;
-    
-
+     gap: 0.5rem;
+   
 }
 
 .r-buttons button {
@@ -58,19 +68,39 @@
     border-radius: 5px;
     background-color: whitesmoke;
     box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.25);
-    margin-bottom: 3px;
-    
+ 
 }
 
 
 @media (max-width: 640px) {
     .r-head{
        align-items: center;
+       margin-top: 2rem;
+       
+      
     }
-    .r-buttons{
-        position: relative;
+  
+    .r-container img {
+        margin-left: 1rem;
+    }
+
+    .r-card {
+        margin-left: 1rem;
+    }
+
+    .r-price {
+        margin-left: 1rem;
+    }
+
+    .r-name {
+        margin-left: 1rem;
+    }
+
+    .card-detail {
+        margin-left: 1rem;
     }
     .r-buttons {
-        margin-bottom: -1rem;
+        margin-bottom: -3rem;
+        margin-top: 2rem;
     }
 }

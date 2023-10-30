@@ -15,28 +15,31 @@ const Residency = () => {
           <span className='greenText'>Ideal Selections</span>
           <span className='primaryText'>Top-choice Residencies</span>
         </div>
+        
 
         <Swiper {...sliderSettings}>
-          <SliderButtons />
+        <SliderButtons />
           {
             data.map((card, i) => (
               <SwiperSlide key={i}>
                 <div className=' flexColStart r-card'>
                   <img src={card.image} style={{ borderRadius: '20px' }}  alt='home' />
                   
-                  <span className='secondaryText r-price'>
+                  <span className='secondaryText r-price' >
                     <span style={{ color: 'orange', fontSize: '1.2rem', fontWeight: '600'}}>$</span>
                       <span style ={{ fontSize: '1.2rem', fontWeight: '600'}}>{card.price}</span>
                   </span>
 
-                  <span style ={{ fontSize: '1.5rem' }} className='primaryText'>{card.name}</span>
+                  <span style ={{ fontSize: '1.5rem' }} className='primaryText r-name'>{card.name}</span>
                   <span style ={{ fontSize: '0.7rem', width: '15rem' }} className='secondaryText card-detail'>{card.detail}</span>
                 </div>
               </SwiperSlide>
             ))
           }
+         
         </Swiper>
       </div>
+
       
     </section>
   );
@@ -48,8 +51,9 @@ const SliderButtons = () => {
   const swiper = useSwiper();
   return (
     <div className='r-buttons flexCenter'>
-      <button onClick={() => swiper.slidePrev()}><AiOutlineArrowLeft /></button>
-      <button onClick={() => swiper.slideNext()}><AiOutlineArrowRight /></button>
+      <button onClick={() => swiper.slidePrev()}><AiOutlineArrowLeft color='green' /></button>
+      <button onClick={() => swiper.slideNext()}><AiOutlineArrowRight color='green' /></button>
     </div>
   )
 }
+    

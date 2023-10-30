@@ -2,8 +2,7 @@ import React, { useState } from 'react';
 import './Header.css';
 import {BiMenuAltRight} from 'react-icons/bi';
 import OutsideClickHandler from 'react-outside-click-handler';
-import { Link } from 'react-scroll';
-import { motion } from "framer-motion"
+
 
 
 
@@ -16,6 +15,8 @@ const Header = () => {
       return {right: !menuOpened && '-100%'}
     }
   }
+
+
   return (
     <section className='h-wrapper'>
     <div className='flexCenter paddings innerWidth h-container'>

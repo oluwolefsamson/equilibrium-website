@@ -1,6 +1,8 @@
 .v-container{
-    gap: 2rem;
+    gap: 1.5rem;
     justify-content: space-around;
+    align-items: center;
+    
 }
 .image-container1 {
     width: 30rem;
@@ -67,19 +69,36 @@
 
 @media (max-width: 640px) {
 
+
+
     .image-container1 {
         width: 20rem;
     }
 
     .v-right {
         align-items: center;
+        flex-direction: column;
     }
 
-    .v-left {
-        margin-top: -10px;
+    .v-left img {
+        margin-top: -2rem;
+
+     
     }
 
+    
 
+}
+
+
+
+@media (width: 768px ) {
+   .v-container {
+    flex-direction: column;
+    justify-content: space-between;
+    
+   }
+    
 }
 
 

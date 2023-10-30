@@ -27,11 +27,11 @@ const Values = () => {
 
 
         <div data-aos="fade-up"
-     data-aos-duration="3000">
+         data-aos-duration="3000">
 
-        <div className="v-left">
-            <div className="image-container1">
-                <img src="./values.jpg" alt="" />
+             <div className="v-left">
+                <div className="image-container1">
+                    <img src="./values.jpg" alt="" />
             </div>
             </div>
             

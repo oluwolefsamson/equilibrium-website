@@ -1,0 +1,66 @@
+[
+    {
+      "name": "DR. SINI KWABE",
+      "position": "Chairman",
+      "detail": "789 Presidential Drive, Maitama, Abuja. Live in opulence in this lavish villa in Maitama. With 6 spacious bedrooms, a swimming pool, and a grand foyer, it's a true symbol of luxury in Abuja.",
+      "image": "./sini.png"
+    },
+    {
+      "name": "MR SEYI ADEDIRAN",
+      "position": "Group Chief Executive (GCE)",
+      "detail": "789 Presidential Drive, Maitama, Abuja. Live in opulence in this lavish villa in Maitama. With 6 spacious bedrooms, a swimming pool, and a grand foyer, it's a true symbol of luxury in Abuja. ",
+      "image": "./seyi.png"
+    },
+    {
+      "name": "MISS VICTORIA TENIOLA",
+      "position": "Chief Operating Officer (COO)",
+      "detail": "123 Business District Avenue, Wuse, Abuja. This stylish apartment in Wuse boasts 2 bedrooms, a modern kitchen, and easy access to the city's business district. Ideal for professionals and executives.",
+      "image": "./vic.png"
+    },
+
+    {
+      "name": "ARC. NUREINI TEMITOPE",
+      "position": "Director of Projects",
+      "detail": "Find peace and comfort in this elegant duplex in Life Camp. Featuring 4 bedrooms, a landscaped garden, and a modern kitchen, it's perfect for a growing family.",
+      "image": "./nureini.png"
+  },
+
+  {
+    "name": "MR SEUN OWOLABI",
+    "position": "Director of Finance",
+    "detail": "Find peace and comfort in this elegant duplex in Life Camp. Featuring 4 bedrooms, a landscaped garden, and a modern kitchen, it's perfect for a growing family.",
+    "image": "./owolabi.png"
+},
+
+{
+  "name": "SURV. OHIKHUEME ANTHONY",
+  "position": "Company Surveyor",
+  "detail": "Find peace and comfort in this elegant duplex in Life Camp. Featuring 4 bedrooms, a landscaped garden, and a modern kitchen, it's perfect for a growing family.",
+  "image": "./anthony.png"
+},
+   
+    {
+      "name": "MR OLUWOLE SAMSON",
+      "position": "IT / Social Media Manager",
+      "detail": "Find peace and comfort in this elegant duplex in Life Camp. Featuring 4 bedrooms, a landscaped garden, and a modern kitchen, it's perfect for a growing family.",
+      "image": "./samson.png"
+    },
+
+    {
+      "name": "MISS PRISCILLA AGBA",
+      "position": "Manager",
+      "detail": "Find peace and comfort in this elegant duplex in Life Camp. Featuring 4 bedrooms, a landscaped garden, and a modern kitchen, it's perfect for a growing family.",
+      "image": "./prisca.png"
+  },
+
+  
+    {
+        "name": "MISS PROMISE NNANNA",
+        "position": "Deputy Manager",
+        "detail": "Find peace and comfort in this elegant duplex in Life Camp. Featuring 4 bedrooms, a landscaped garden, and a modern kitchen, it's perfect for a growing family.",
+        "image": "./promise.png"
+    }
+
+
+   
+  ]

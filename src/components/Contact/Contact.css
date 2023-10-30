@@ -1,11 +1,13 @@
 .c-container1{
- align-items: center;
+ justify-content: space-between;
+ gap: 1.5rem;
  
 }
 
 .c-container1>div {
     flex:1
 }
+
 
 .c-right {
     width: 100%;
@@ -81,7 +83,7 @@ button:hover {
     
    .contactModes{
         min-width: 20rem;
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .row{
@@ -90,4 +92,10 @@ button:hover {
     }
 
 
+}
+
+@media (max-width: 640px) {
+    .contactModes {
+        flex-direction: column;
+    }
 }

@@ -55,4 +55,19 @@
     .f-wrapper {
         margin-bottom: 2rem;
     }
+
+ .f-right .f-fol {
+        font-size: x-large;
+    }
+
+    .f-con {    
+        font-size: x-large;
+    }
+
+    .follow {
+        gap: 1rem;
+        margin-bottom: 1rem;
+        size: 15px;
+    }
+    
 }

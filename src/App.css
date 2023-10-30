@@ -120,7 +120,7 @@
   /* media queries */
   @media (min-width: 1536px) {
     .innerWidth {
-      max-width: 1280px;
+      max-width: 624px;
       margin: auto;
     }
   }
@@ -158,6 +158,7 @@
     .greenText{
       font-size: 1.2rem;
     }
+
 
     
     
