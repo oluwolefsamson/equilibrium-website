@@ -17,14 +17,14 @@ const Footer = () => {
         <div className="foot">
 
         <div className="good">
-        <ImLocation2 className='secondaryText span1' size={20} style={{ marginBottom: '5px'}}/>
-        <HiOutlineMail className='secondaryText span3' size={20} />
-        <AiTwotonePhone className='secondaryText span2' size={20} />
+        <ImLocation2 className='secondaryText' size={20} style={{ marginBottom: '5px'}}/>
+        <HiOutlineMail className='secondaryText' size={20} />
+        <AiTwotonePhone className='secondaryText' size={20} />
         <FiInstagram className='secondaryText span4' size={20} />
         </div>
         
           <div className="secondaryText write">
-        <span>Suite 203 Anbeez Plaza Wuse Opposite Former CAC <br /> Office Ndola Crescent Wuse Zone 5 Abuja.</span><br />
+        <span className='span1'>Suite 203 Anbeez Plaza Wuse Opposite Former CAC Office Ndola Crescent Wuse Zone 5 Abuja.</span><br />
         <span>equilibriummetrohomes@gmail.com</span><br />
         <span>+234 805 4288 271, +234 706 6299 202</span><br />
         <span>equilibriummetrohomes</span><br />

@@ -50,6 +50,7 @@ body {
 
 .man-pos {
   font-size: small;
+  margin-top: -1rem;
 }
 
 .man-detail {

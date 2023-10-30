@@ -32,6 +32,7 @@
     display: flex;
     flex-direction: column;
     padding: 1rem;
+    max-width: 40%;
     
     
 }
@@ -61,28 +62,31 @@
     .f-wrapper {
         border-top-right-radius: 0;
         border-top-left-radius: 0;
+        max-height: 40vh;
     }
+    
    
     .write {
-        padding-top: 2.6rem;
         font-size: 11px;
         
     }
 
     .follow-h2 {
         font-size: 20px;
+        margin-bottom: -1rem;
     }
 
     .f-con {
-        margin-top: -1rem;
+        margin-top: -3rem;
     }
 
     .good {
-        margin-top: 1rem;
+        margin-top: '';
     }
 
     .write {
-        margin-top: -1rem;
+        margin-top: '';
+        max-width: 100%;
     }
 
    
