@@ -4,8 +4,6 @@ import {BiMenuAltRight} from 'react-icons/bi';
 import OutsideClickHandler from 'react-outside-click-handler';
 
 
-
-
 const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false)
 
@@ -30,10 +28,10 @@ const Header = () => {
 
         <div className= 'flexCenter h-menu'
         style={getMenuStyles(menuOpened)}>
-            <a href="residencies">Residency</a>
-            <a href="">Our Values</a>
-            <a href="">Contact Us</a>
-            <a href="">Get Started</a>
+            <a href="" >Residency</a>
+            <a href="" >Our Values</a>
+            <a href="" >Contact Us</a>
+            <a href="" >Get Started</a>
             <button><a href="">Contact</a></button> 
         </div>
         </OutsideClickHandler>
