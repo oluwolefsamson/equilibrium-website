@@ -81,12 +81,13 @@
     }
 
     .good {
-        margin-top: '';
+        margin-top: 0.7rem;
     }
 
     .write {
-        margin-top: '';
+        margin-top: 1rem;
         max-width: 100%;
+        
     }
 
    
