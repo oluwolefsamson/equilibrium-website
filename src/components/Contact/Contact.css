@@ -71,6 +71,7 @@ button:hover {
 @media (max-width: 1024px) {
     .c-container1 {
         flex-direction: column;
+        
        
     }
     .c-left {
@@ -79,6 +80,7 @@ button:hover {
 
     .c-right {
         justify-content: center;
+        
     }
     
    .contactModes{
@@ -95,7 +97,16 @@ button:hover {
 }
 
 @media (max-width: 640px) {
+
+   
     .contactModes {
         flex-direction: column;
     }
+}
+
+@media (max-width: 365px) {
+    .c-container1{
+        padding-left: 1rem;
+    }
+ 
 }

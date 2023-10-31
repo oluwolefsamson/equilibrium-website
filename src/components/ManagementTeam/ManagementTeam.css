@@ -56,6 +56,23 @@ body {
 .man-detail {
   text-align: center;
   font-size: 11px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+@media (max-width: 640px) {
+  
+
+  body {
+    height: 80%;
+  }
+
+  .swiper {
+    width: 100%;
+  }
+
+  
 }
 
 
