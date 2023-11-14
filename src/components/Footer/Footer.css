@@ -13,6 +13,7 @@
     text-align: center;
     margin-top: -1.5rem;
     color: #fff;
+    padding-bottom: 1rem;
 }
 
 .good {
@@ -61,6 +62,19 @@
 
 .follow span:nth-child(1):hover{
     color: green;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem;
+    gap: 10px;
+}
+
+.copyright span:nth-child(2) {
+    text-align: center;
 }
 
 

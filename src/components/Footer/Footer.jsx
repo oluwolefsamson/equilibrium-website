@@ -41,6 +41,11 @@ const Footer = () => {
           <a href="https://www.instagram.com/equilibriummetrohomes"><span><FiInstagram size={30} /></span></a>
         </div>
 
+        <div className='secondaryText copyright'>
+          <span>Copyright 2023.</span>
+          <span>All right reserved. Powered by Equilibrium Metro Homes.</span>
+        </div>
+
        
     </section>
   )
