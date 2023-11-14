@@ -14,13 +14,16 @@ const Footer = () => {
     
        
         <h2 className='primaryText f-con'>Contact</h2>
+        
         <div className="foot">
 
+
+
         <div className="good">
-        <ImLocation2 className='secondaryText' size={20} style={{ marginBottom: '5px'}}/>
-        <HiOutlineMail className='secondaryText' size={20} />
-        <AiTwotonePhone className='secondaryText' size={20} />
-        <FiInstagram className='secondaryText span4' size={20} />
+          <ImLocation2 className='secondaryText' size={20} style={{ marginBottom: '5px'}}/>
+          <HiOutlineMail className='secondaryText' size={20} />
+          <AiTwotonePhone className='secondaryText' size={20} />
+          <FiInstagram className='secondaryText span4' size={20} />
         </div>
         
           <div className="secondaryText write">
@@ -28,13 +31,13 @@ const Footer = () => {
         <span>equilibriummetrohomes@gmail.com</span><br />
         <span>+234 805 4288 271, +234 706 6299 202</span><br />
         <span>equilibriummetrohomes</span><br />
+        <span>RC : 6987660</span>
           </div>
         </div>
 
-        <h2 className='primaryText follow-h2'>Follow Us</h2>
         <div className="follow secondaryText">
-          <a href="#"><span><BsFacebook size={30} /></span></a>
-          <a href="#"><span><FaXTwitter size={30} /></span></a>
+          <a href="#"><span><BsFacebook size={25} /></span></a>
+          <a href="#"><span><FaXTwitter size={25} /></span></a>
           <a href="https://www.instagram.com/equilibriummetrohomes"><span><FiInstagram size={30} /></span></a>
         </div>
 
