@@ -1,0 +1,13 @@
+.contactpage-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+    
+}
+
+
+@media (max-width: 768px ) {
+    .contactpage-container {
+        gap: 2rem;
+    }
+}

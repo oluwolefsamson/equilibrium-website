@@ -9,6 +9,7 @@ import Contact from './components/Contact/Contact';
 import GetStarted from './components/GetStarted/GetStarted';
 import ManagementTeam from './components/ManagementTeam/ManagementTeam';
 import Footer from './components/Footer/Footer';
+import AboutCard from './components/AboutCard/AboutCard';
 
 
 
@@ -22,6 +23,7 @@ const App = () => {
         <Company />
         <Residency />
         <Values />
+        <AboutCard />
         <Contact />
         <GetStarted />
         <ManagementTeam />

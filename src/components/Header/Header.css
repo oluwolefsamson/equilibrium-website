@@ -1,7 +1,7 @@
 .h-wrapper {
     background: var(--black);
     color: #fff;
-    z-index: 99;
+   
 }
 
 .h-container {
@@ -28,7 +28,8 @@
     display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 760px) {
+   
     .menu-icon{
         display: block;
     }

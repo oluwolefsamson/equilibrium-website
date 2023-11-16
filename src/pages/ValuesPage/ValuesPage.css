@@ -1,0 +1,13 @@
+.valuespage-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+    
+}
+
+
+@media (max-width: 768px ) {
+    .valuespage-container {
+        gap: 2rem;
+    }
+}

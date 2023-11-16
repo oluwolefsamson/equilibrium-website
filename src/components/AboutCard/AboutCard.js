@@ -1,19 +1,10 @@
 import React from 'react'
-import Header from '../../components/Header/Header'
-import Footer from '../../components/Footer/Footer'
-import Hero from '../../components/Hero/Hero'
-import Residency from '../../components/Residencies/Residency'
-import './AboutPage.css'
-import AboutCard from '../../components/AboutCard/AboutCard'
+import './AboutCard.css'
 
-const AboutPage = () => {
+const AboutCard = () => {
   return (
-    <section className='aboutpage-container'>
-        <Header />
-        <Hero />
-        <Residency />
-        <AboutCard />
-        {/* <div className='paddings innerWidth aboutpage-content'>
+    <div className='about-card'>
+         <div className='paddings innerWidth aboutcard-content'>
           
           <div className='introduction'>
             <span>INTRODUCTION</span>
@@ -49,10 +40,9 @@ const AboutPage = () => {
               lasting relationship with our clients based on trust, transparency and open communication.
             </span>
           </div>
-          </div> */}
-        <Footer />
-    </section>
+          </div>
+    </div>
   )
 }
 
-export default AboutPage
+export default AboutCard

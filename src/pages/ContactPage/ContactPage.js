@@ -1,14 +1,15 @@
 import React from 'react'
 import Header from '../../components/Header/Header'
-import './ContactPage.css'
+import Contact from '../../components/Contact/Contact'
 import Footer from '../../components/Footer/Footer'
+import './ContactPage.css'
 
 const ContactPage = () => {
   return (
-    <div>
+    <div className='contactpage-container'>
         < Header />
-        <div>ContactPage</div>
-        {/* < Footer /> */}
+        < Contact />
+        < Footer /> 
     </div>
   )
 }
