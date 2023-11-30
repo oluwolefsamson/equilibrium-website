@@ -45,7 +45,6 @@
     box-shadow: 0 4px 8px rgba(53, 42, 207, 0.3);
 }
 
-
 .accordionItem.expanded {
     box-shadow: var(--shadow);
     border-radius: 6px;

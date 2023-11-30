@@ -28,8 +28,6 @@ const App = () => {
         <GetStarted />
         <ManagementTeam />
         <Footer /> 
-        
-        
       </div>
       
  

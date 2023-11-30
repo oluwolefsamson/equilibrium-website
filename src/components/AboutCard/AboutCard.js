@@ -4,9 +4,9 @@ import './AboutCard.css'
 const AboutCard = () => {
   return (
     <div className='about-card'>
-         <div className='paddings innerWidth aboutcard-content'>
+         <div className='paddings secondaryText innerWidth aboutcard-content'>
           
-          <div className='introduction'>
+          <div className='introduction '>
             <span>INTRODUCTION</span>
             <span>Equilibrium Metro Homes is a dynamic and innovative
                company specializing in building, marketing, and construction services. With 

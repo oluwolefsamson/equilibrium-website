@@ -1,8 +1,11 @@
 .valuespage-container {
     display: flex;
     flex-direction: column;
-    gap: 10rem;
     
+}
+
+.valuespage-container .v-wrapper {
+    margin-top: 5rem;
 }
 
 

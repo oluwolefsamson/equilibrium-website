@@ -9,11 +9,11 @@
 
 .aboutcard-content .introduction {
     display: flex;
+    padding-top: 1rem;
     flex-direction: column;
-    background-color: transparent;
-    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
     border-radius: 20px;
-    background-color: #fff
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(53, 42, 207, 0.3);
 }
 
 .introduction span:nth-child(1) {
@@ -29,19 +29,19 @@
 
 .introduction span:nth-child(2) {
     padding: 20px;
-    color: rgba(78, 74, 74, 0.78);
     line-height: 1.5rem;
-    font-size: medium;
+    color: rgb(140 139 139);
+    font-size: 0.9rem;
 }
-
 
 .aboutcard-content .our-vision {
     display: flex;
     flex-direction: column;
     background-color: transparent;
-    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
     border-radius: 20px;
-    background-color: #fff
+    background-color: #fff;
+    padding-top: 1rem;
+    box-shadow: 0 4px 8px rgba(53, 42, 207, 0.3);
 }
 
 .our-vision span:nth-child(1) {
@@ -57,18 +57,19 @@
 
 .our-vision span:nth-child(2) {
     padding: 20px;
-    color: rgba(78, 74, 74, 0.78);
     line-height: 1.5rem;
-    font-size: medium;
+    color: rgb(140 139 139);
+    font-size: 0.9rem;
 }
 
 .aboutcard-content .our-mission {
     display: flex;
     flex-direction: column;
     background-color: transparent;
-    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
     border-radius: 20px;
-    background-color: #fff
+    background-color: #fff;
+    padding-top: 1rem;
+    box-shadow: 0 4px 8px rgba(53, 42, 207, 0.3);
 }
 
 .our-mission span:nth-child(1) {
@@ -84,9 +85,9 @@
 
 .our-mission span:nth-child(2) {
     padding: 20px;
-    color: rgba(78, 74, 74, 0.78);
     line-height: 1.5rem;
-    font-size: medium;
+    color: rgb(140 139 139);
+    font-size: 0.9rem;
 }
 
 
@@ -96,6 +97,7 @@
         display: flex;
         flex-direction: column;
         gap: 2rem;
+        margin-bottom: 0;
     }
 
    
