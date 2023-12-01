@@ -7,10 +7,3 @@
 .valuespage-container .v-wrapper {
     margin-top: 5rem;
 }
-
-
-@media (max-width: 768px ) {
-    .valuespage-container {
-        gap: 2rem;
-    }
-}

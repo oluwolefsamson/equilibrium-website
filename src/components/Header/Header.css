@@ -1,7 +1,6 @@
 .h-wrapper {
     background: var(--black);
     color: #fff;
-   
 }
 
 
@@ -11,18 +10,41 @@
     padding-bottom: 0rem;
     color: var(--secondary);
 }
-.h-menu {
-    gap: 2rem;   
+.h-container img {
+    width: 12rem;
 }
+
+.h-menu {
+    gap: 2rem;
+    font-size: medium;   
+}
+
+.h-menu > a {
+    position: relative;
+    text-decoration: none;
+}
+
+.h-menu > a::before {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: green; /* Initial color of the sliding border */
+    transition: width 0.3s ease-in-out; /* Transition for sliding effect */
+}
+
+.h-menu > a:hover::before {
+    width: 100%; /* Expand the border to 100% on hover */
+}
+
 
 .h-menu:hover {
     cursor: pointer;
   
 }
-.h-menu>a:hover {
-    color: #17cf97;
-    transition: 0.3 ease-in-out;
-}
+
 .menu-icon {
     display: none;
 }
@@ -48,5 +70,13 @@
         align-items: center;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
         transition: all 300ms ease-in;
+    }
+
+    .h-container img {
+        width: 8rem;
+    }
+
+    .h-menu > a:hover::before {
+        display: none;
     }
 }
